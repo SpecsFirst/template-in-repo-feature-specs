@@ -1,0 +1,21 @@
+# Copier configuration. Not copied into projects (see _exclude).
+# Files keep their real names (no .jinja suffix) so they stay readable on the gallery.
+_templates_suffix: ""
+
+_exclude:
+  # Copier defaults
+  - copier.yml
+  - copier.yaml
+  - "~*"
+  - "*.py[co]"
+  - __pycache__
+  - .git
+  - .DS_Store
+  - .svn
+  # Template-only files
+  - LICENSE
+  - README.md
+
+project_title:
+  type: str
+  help: Title of the product or project
